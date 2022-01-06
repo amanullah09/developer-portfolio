@@ -1,3 +1,9 @@
+body{
+  font
+}
 section{
     display:flex;
+}
+.left-section h1{
+    
 }
