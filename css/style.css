@@ -7,16 +7,12 @@ body{
 /*first section design*/
 section{
     display: flex;
-    
+    font-weight: 400;
 }
 .left{
     background-image: url(rename.png);
     background-repeat:no-repeat;
-    
     background-size: 100%;
-    
-    width: 
-    margin-r
 }
 .left-text{
     margin-left:60px;
@@ -31,11 +27,13 @@ section{
 }
 .left h3{
     font-size: 35px;
+    font-weight: 300;
 }
 .left p{
     font-size: 16px;
     color:rgb(43, 42, 42);
     margin-bottom: 25px;
+    font-weight: 400;
 }
 .orange{
     padding:0;
@@ -43,10 +41,7 @@ section{
     color: orange;
     text-shadow: none ;
 }
-.right{
-    width: 
-    margin-lef
-}
+
 .right img{
     height: 500px;
     width: 550px;
@@ -59,6 +54,42 @@ section{
     color: #fff;
     padding:10px 40px;
     text-transform: uppercase;
-    
-
 }
+/* middel section*/
+
+.leftside img{
+    width: 500px;
+    height:500px;
+}
+.rightside{
+    margin-left:25px;
+    background-image: url(bg-wer.jfif);
+    
+}
+.text{
+    padding: 10px 60px;
+}
+.rightside h1{
+    font-size: 60px;
+    font-weight: 400;
+}
+.rightside h3{
+ font-size: 35px;
+ font-weight: 300;
+}
+.rightside p{
+    font-size: 18px;
+    font-weight: 400;
+    padding-bottom: 20px;
+}
+.rightside a{
+    background-image: linear-gradient(rgb(248, 157, 0),rgb(248, 65, 65));
+    font-size: 16px;
+    border-radius:5px;
+    text-decoration: none;
+    color: #fff;
+    padding:15px 40px;
+    text-transform: uppercase;
+    margin-top: 15px;
+}
+/*last section*/
