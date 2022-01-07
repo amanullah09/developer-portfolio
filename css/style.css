@@ -5,7 +5,7 @@ body{
     
 }
 /*first section design*/
-section{
+.flex{
     display: flex;
     font-weight: 400;
 }
@@ -93,3 +93,34 @@ section{
     margin-top: 15px;
 }
 /*last section*/
+.footer-right{
+    width:40%;
+    margin-left:5%;
+    margin-right:5%;
+    height: 100%;
+    border-image: linear-gradient(blue,cyan);
+}
+.footer-left {
+    width:40%;
+    margin-left:5%;
+    margin-right:5%;
+    height:100%;
+    border-color: 
+}
+.footer-section h1{
+    font-size: 60px
+    font-weight: 700;
+}
+.footer-section .footer-right{
+    margin
+}
+.footer-section .footer-right h1{
+   font-size: 35px;
+
+}
+.footer-section .footer-left h1{
+    font-size: 35px;
+}
+footer{
+    text-align: center;
+}
